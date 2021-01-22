@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="description" content="Como Hacer un Menu con Submenu desplegable con HTML Y CSS">
+	<meta name="robots" content="index, folllow">
+	<meta name="author" content="Lennys Rojas">
+	<title>Menu Desplegable</title>
+	<link rel="shorcut icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="tablet.css" media="(min-width:600px)">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Sobre Mi</a></li>
+				<li>
+					<a href="">Proyectos</a>
+				
+					<ul  class="submenu">
+						<li>
+							<a class="padding"  href="">Portafolio Dra Ana</a>
+						</li>
+
+					<details>
+						<summary>
+							Libros/Javascript 
+						</summary>
+					<ul  class="submenu">
+						<li>
+							<a class="padding" href="">Up & Going</a>
+						</li>
+
+						<li>
+							<a class="padding"  href="">Scope & Closures</a>
+						</li>
+
+						<li>
+							<a class="padding"  href="">This & Object Prototypes</a>
+						</li>
+
+						<li>
+							<a class="padding"  href="">Types & Grammar</a>
+						</li>
+
+						<li>
+							<a class="padding"  href="">Async & Performance</a>
+						</li>
+
+						<li>
+							<a class="padding"  href="">ES6 & Beyond</a>
+						</li>
+			 		</ul>
+					</details>
+
+					<li>
+						<a href="">Blog de Poemas</a>
+					</li>
+
+					<details>
+						<summary>
+							Salvatore Gamer
+						</summary>
+							<ul  class="submenu">
+								<li>
+									<a class="padding"  href="">Call of Duty</a>
+								</li>
+
+								<li>
+									<a class="padding"  href="">GardenScapes</a>
+								</li>
+								
+								<li>
+									<a class="padding"  href="">Boom Beach</a>
+								</li>
+
+								<li>
+									<a class="padding"  href="">Outlast</a>
+								</li>
+
+								<li>
+									<a class="padding"  href="">Tomb Raider</a>
+								</li>
+					 		</ul>
+					</details>
+
+					<li>
+						<a href="">Barberia Piedra</a>
+					</li>
+
+				</li>
+					</ul>
+				<li><a href="#">Blog</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h1>Menu con un Submenu Desplegable </h1>
+			<p> Creado con HTML y CSS Con un Media Queries a los 600px, Adaptable a dispositivos Moviles.</p>
+		</section>
+	</main>
+	<footer>
+		<p>© Lennys Rojas 2021</p>
+	
+		<div>
+			<a href="http://www.twitter.com/lenrmatterano" target="_blank"> <img src="icons/twitter.png"></a>
+			<a href="https://www.linkedin.com/in/lennys-rojas-75591818a/" target="_blank"><img src="icons/linkedin.png"></a>
+			<a href="https://github.com/lenrmatterano" target="_blank"><img src="icons/github.png"></a> 
+		</div>
+		<img class="imgfooter" src="icons/lenlogo.png">
+	</footer>	
+</body>
+</html>

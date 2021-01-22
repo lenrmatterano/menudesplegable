@@ -1,0 +1,38 @@
+header{
+	background-color: #558893;
+}
+
+nav ul li a{
+	
+	font-size: 1.15rem; 
+}
+
+nav ul li a:hover,
+nav summary:hover{
+	background-color:  #2d5d6e;
+	cursor 			: pointer;
+}
+
+nav summary {
+	font-size: 1.15rem;
+}
+
+nav ul  .submenu{
+	background-color: #558893;
+	width 			: 14rem;
+}
+
+main h1{
+	font-size: 1.3rem;
+}
+
+main section p{
+	font-size: 0.875rem;
+}
+
+footer{
+	background-color: #558893;
+}
+footer:hover{
+	background-color:  #2d5d6e;
+}
